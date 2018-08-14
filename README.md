@@ -20,8 +20,10 @@ public static String findRegionByIp(String ip)
 ```
 
 # example
-         public void example() throws Exception {
-            String ip = "58.30.15.255";
-            String region = IpHelper.findRegionByIp(ip);
-            System.out.println(region);
-         }
+```
+public void example() throws Exception {
+    String ip = "58.30.15.255";
+    String region = IpHelper.findRegionByIp(ip);
+    System.out.println(region);
+}
+```
